@@ -18,7 +18,7 @@ def scrape():
 
 #initialize browser
     def init_browser():
-        executable_path = {'executable_path' : '/users/ashwinpatel/CDriver/chromedriver'}
+        executable_path = {'executable_path' : '/Users/Omome/Documents/chromedriver'}
         return Browser('chrome', **executable_path, headless=False)
 
 
